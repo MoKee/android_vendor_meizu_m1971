@@ -1,4 +1,4 @@
-# Copyright (C) 2019 The MoKee Open Source Project
+# Copyright (C) 2020 The MoKee Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,3 +17,6 @@
 PRODUCT_SOONG_NAMESPACES += \
     vendor/meizu/m1971
 
+PRODUCT_COPY_FILES += \
+    vendor/meizu/m1973/proprietary/etc/permissions/com.nxp.nfc.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.nxp.nfc.xml \
+    vendor/meizu/m1973/proprietary/framework/com.nxp.nfc.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.nxp.nfc.jar
